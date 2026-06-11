@@ -70,9 +70,11 @@
         </div>
 
         <div class="hero-visual reveal reveal-delay">
-          <div class="device-frame device-phone has-shot">
-            <figure class="screenshot-placeholder"><img src="/assets/screenshots/home.png" alt="App home" loading="lazy" /></figure>
+          <div class="device-frame device-phone has-quiz">
+            <div class="demo-quiz" id="demo-quiz" data-question='{"passage": "Hallo Tanja, hast du schon Pläne für das Wochenende? Ich möchte am Samstag gerne in die neue Kunstausstellung in der Stadtmitte gehen. Meine Freundin Maria kommt auch mit. Wir treffen uns um 14 Uhr vor dem Museum. Hast du Lust mitzukommen? Liebe Grüße, Julia", "question": "Was macht Julia am Wochenende?", "options": [{"text": "Sie geht mit ihrer Schwester einkaufen."}, {"text": "Sie besucht eine Ausstellung mit ihrer Freundin."}, {"text": "Sie möchte zu Hause bleiben und lesen."}], "correct": 1, "explanationCorrect": "Julia schreibt, dass sie am Samstag mit ihrer Freundin eine Kunstausstellung besuchen möchte.", "explanationWrong": "Im Text steht, dass Julia am Samstag mit ihrer Freundin Maria in eine Kunstausstellung gehen möchte."}'>
+            </div>
           </div>
+          <p class="demo-quiz__hint">Try a sample question — tap an answer.</p>
         </div>
       </div>
     </section>
@@ -380,5 +382,6 @@
   </footer>
 
   <script src="/js/main.js"></script>
+  <script src="/js/demo-quiz.js"></script>
 </body>
 </html>
